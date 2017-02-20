@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="encryptionDevice.css">
+  <script src="encryptionDevice.js"></script>
+</head>
+<center>
+  <button id="goBack" onClick="goBack()">
+    go back
+  </button>
+<p id="title">
+  encrypt and decrypt messages
+</p>
+  <div id="line">
+  </div>
+  <button id="encrypt" onClick="encrypt()">
+    encrypt
+  </button>
+  <button id="decrypt" onClick="decrypt()">
+    decrypt
+  </button>
+  <br>
+<input id="front" onkeyup="run()" placeholder="Encrypt" />
+<input id="front2" onkeyup="run2()" placeholder="Decrypt" />
+<p id="output">
+</p>
+<p id="output2">
+</p>
+</center>
+</html>

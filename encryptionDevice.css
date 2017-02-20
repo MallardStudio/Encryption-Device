@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Space Mono');
+#title {
+  font-family: Space Mono;
+  margin-top: 3em;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+#line {
+  width: 30em;
+  height: 0.1em;
+  background-color: black;
+  border-radius: 50px;
+  margin-bottom: -3em;
+}
+
+#encrypt {
+  margin-top: 4.5em;
+  width: 8em;
+  height: 2.5em;
+  border: none;
+  background-color: transparent;
+  font-family: Space Mono;
+  font-size: 16px;
+}
+
+#encrypt:hover,
+#decrypt:hover {
+  background-color: black;
+  cursor: pointer;
+}
+
+#decrypt {
+  margin-left: 10em;
+  width: 8em;
+  height: 2.5em;
+  border: none;
+  background-color: transparent;
+  font-family: Space Mono;
+  font-size: 16px;
+}
+
+input {
+  font-family: Space Mono;
+  margin-top: -2em;
+  border: 2px solid black;
+  text-align: center;
+  padding: 5px;
+  border-radius: 2px;
+  font-size: 125%;
+  display: inline;
+  visibility: hidden;
+}
+
+#output,
+#output2 {
+  word-wrap: break-word;
+  font-family: Space Mono;
+}
+
+button:focus {
+  outline: 0;
+}
+
+#goBack {
+  width: 10em;
+  border: none;
+  background: transparent;
+  font-family: Space Mono;
+  margin-top: 5em;
+  font-size: 12px;
+  visibility: hidden;
+}
+
+#goBack:hover {
+  background-color: black;
+  cursor: pointer;
+}
